@@ -8,6 +8,6 @@ This is my template for **Open Source** Project
 
 ### Get Started 
 Install Dependencies
-[This is Pandas image](/img/Pandas.png)
+![This is Pandas image](/img/Pandas.png)
 
 ### Building and running in production mode
