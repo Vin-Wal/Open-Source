@@ -1,1 +1,1 @@
-#How to contribute to repo (making pull request, setting development environment...)
+# How to contribute to repo (making pull request, setting development environment...)
