@@ -1,0 +1,4 @@
+# ignore logs files, API_KEYS and .gitignore
+*.log
+API_KEYS
+.gitignore
