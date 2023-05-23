@@ -1,0 +1,17 @@
+#Convert any csv file to feather format. Feather format stores data in binary format and size of file is very less as compared to csv format.
+#Very useful in case of large dataset.
+
+def convert_csv_to_feather(file_path: str):
+  """
+  Simple function that takes convert any file to feather format.Feather format stores data in binary format and size of file is very less as compared to csv format.
+  Very useful in case of large dataset.
+
+  Args : file_path
+
+  Return None
+  """
+  dir_name,file_name = os.path.split(file_path)
+  file = file_name.split('.')[0]+'.fetaher'
+  df = pd.read_csv(file_path)
+  full_path = os.path.join(dir_name,file)
+  df.to_feather(full_path)
